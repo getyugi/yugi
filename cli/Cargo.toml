@@ -1,0 +1,11 @@
+[package]
+name = "cli"
+edition = "2021"
+version = "0.1.0"
+authors = ["Alireza Baloochi <Dev.AlirezaBaloochi@gmail.com>"]
+description = "Yugi is Static Site Generator"
+license="MIT"
+
+[[bin]]
+name="yugi"
+path="src/main.rs"
