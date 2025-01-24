@@ -179,6 +179,7 @@ version = "0.1.0"
 dependencies = [
  "assert_cmd",
  "clap",
+ "core",
  "tempfile",
  "tokio",
 ]
@@ -194,6 +195,7 @@ name = "core"
 version = "0.1.0"
 dependencies = [
  "pulldown-cmark",
+ "tokio",
 ]
 
 [[package]]
