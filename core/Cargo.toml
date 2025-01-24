@@ -12,3 +12,4 @@ path = "src/lib.rs"
 
 [dependencies]
 pulldown-cmark = "0.12.2"
+tokio = { version = "1" , features = ["full"]}
